@@ -17,24 +17,34 @@ Este proyecto se centra en la creación de un clasificador de canciones de Spoti
 
 - Utilizaremos herramientas como Seaborn y Matplotlib para visualizar los datos y comprender mejor las características de las canciones.
 
-### 3. Creación de Modelos con Scikit-Learn
+### 3. Función para obtener las métricas de medición y evaluar los modelos.
+
+- Hemos definido una función llamada `evaluar_modelo` que evalúa el rendimiento de los modelos. Calcula métricas clave, como la precisión, la recuperación y el puntaje F1, y rea una matriz de confusión para visualizar las predicciones
+
+- Además de la evaluación simple del modelo, implementamos una función `validacion_cruzada` la cual realiza un cross validation, que nos permite evaluar el rendimiento del modelo en múltiples particiones del conjunto de datos de entrenamiento.
+
+### 4. Creación de Modelos con Scikit-Learn
 
 - Implementaremos varios modelos de aprendizaje automático utilizando la biblioteca Scikit-Learn.
 - Evaluaremos el rendimiento de los modelos y seleccionaremos los mejores.
 
-### 4. Creación de Modelos con TensorFlow y Keras
+### 5. Creación de Modelos con TensorFlow y Keras
 
 - Implementaremos modelos de redes neuronales utilizando TensorFlow y Keras.
 - Ajustaremos y entrenaremos estos modelos para la clasificación de canciones.
 
-### 5. Ajuste de Hiperparámetros
+### 6. Ajuste de Hiperparámetros
 
-- Utilizaremos técnicas de búsqueda de hiperparámetros para optimizar el rendimiento de nuestros modelos.
+- Utilizaremos técnicas de búsqueda de hiperparámetros para optimizar el rendimiento de nuestros mejores modelos.
 
-### 6. Ensamble y Métricas
+### 7. Ensamble y Métricas
 
 - Ensamblaremos los modelos seleccionados para mejorar la precisión de nuestras predicciones.
 - Calcularemos métricas de evaluación como precisión, recall, F1-score y matriz de confusión.
+
+### 8. Probando modelos de otras librerías
+
+- En esta etapa se exploraron modelos de clasificación de tres bibliotecas populares de aprendizaje automático: `XGBoost, LightGBM y CatBoost.`
 
 ## Conjunto de Datos
 
